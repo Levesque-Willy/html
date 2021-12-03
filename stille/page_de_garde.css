@@ -1,0 +1,24 @@
+.presentation{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 500px;
+  margin-left:25em;
+
+}
+body{
+  background-color: #000000 ;
+  background-image:url("image/blood_moon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+/**{border: 1px solid red}*/
+main{
+  color: white;
+}
+.choix{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 500px;
+  margin-left: 25em;
+}

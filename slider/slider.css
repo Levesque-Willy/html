@@ -1,0 +1,46 @@
+.slider{/*debut du slide*/
+  width: 400px;
+  overflow:hidden;
+  margin: 30px auto;
+
+}
+.slides{
+  width: calc(500px *6);
+  animation: glisse 25s infinite;
+}
+.slide{
+  float:left;
+}
+@keyframes glisse{
+  0%{
+    transform: translateX(0);
+  }
+  12,5%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-400px);
+  }
+  37,5%{
+    transform: translateX(-400px);
+  }
+  50%{
+  transform: translateX(-800px);
+  }
+  62,5%{
+  transform: translateX(-800px);
+  }
+  75%{
+  transform: translateX(-1200px);
+  }
+  87,5%{
+  transform: translateX(-1200px);
+  }
+  100%{
+      transform: translateX(0);
+    }
+}
+img{
+  height: 400px;
+  width: 400px;
+}
